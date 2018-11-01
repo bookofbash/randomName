@@ -11,6 +11,9 @@ $(document).ready(function(){
             if(responsiveVoice.voiceSupport()) {
                 responsiveVoice.speak(name, "UK English Male");
                 }
+                $("#results").on("click", function(){
+                    responsiveVoice.speak(name, "UK English Male");
+                });
             //Sets variable name content again
             content = document.getElementById('results');
             //$(content).append(data.names[0]);
@@ -24,19 +27,15 @@ $(document).ready(function(){
             //Speaks name
             if(responsiveVoice.voiceSupport()) {
                 responsiveVoice.speak(name, "UK English Female");
+                $("#results").on("click", function(){
+                    responsiveVoice.speak(name, "UK English Female");
+                });
                 }
+
              //Sets variable name content again
             content = document.getElementById('results');
             //$(content).append(data.names[0]);
         });
-    });
-    $("button").click(function() {
-        if ( $(this).css("transform") == 'none'){
-            $(this).css("transform","rotateY(360deg")
-        }  else{
-                $(this).css("transform", "");
-            };
-            $(this).css("transform") == 'none'
     });
 
 });
