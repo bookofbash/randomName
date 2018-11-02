@@ -48,16 +48,6 @@ button {
     font-size: 2.5em;
     letter-spacing: 3px;
     text-align: center;
-
-/*Transitions*/
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
 }
 button:hover {
     cursor: pointer;
@@ -71,3 +61,31 @@ button:hover {
    text-align: center;
    font-family: 'Abel', sans-serif;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 420px) {
+    /* Styles */
+    button {
+        border-radius: 15px;
+        height: 80px;
+        font-family: 'Abel', sans-serif;
+        font-size: 2.5em;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .male{
+        width:40%;
+        float: left;
+        margin-left: 1%;
+        background: skyblue;
+       }
+       
+       .female{
+       width: 40%;
+       float: right;
+       margin-right: 1%;
+       background: plum;
+       
+       }
+
+    }
