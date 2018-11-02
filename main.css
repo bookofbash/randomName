@@ -69,19 +69,19 @@ button:hover {
         border-radius: 15px;
         height: 80px;
         font-family: 'Abel', sans-serif;
-        font-size: 2.5em;
+        font-size: 2.25em;
         letter-spacing: 3px;
         text-align: center;
     }
     .male{
-        width:40%;
+        width:45%;
         float: left;
         margin-left: 1%;
         background: skyblue;
        }
        
        .female{
-       width: 40%;
+       width: 45%;
        float: right;
        margin-right: 1%;
        background: plum;
