@@ -2,6 +2,8 @@ body {
     margin:0;
     padding:0;
     height:100%;
+    background: rgb(246,232,255);
+    background: linear-gradient(135deg, rgba(246,232,255,0.9962359943977591) 0%, rgba(249,249,249,1) 49%, rgba(237,237,237,0.9430147058823529) 100%);
  }
 
 .container {
